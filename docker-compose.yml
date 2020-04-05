@@ -1,0 +1,7 @@
+version: '3'
+services:
+    portfolio-backend:
+        restart: on-failure
+        build: .
+        ports:
+            - "3003:3003"
